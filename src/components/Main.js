@@ -4,6 +4,7 @@ import Home from './Home'
 import Roster from './Roster'
 import Schedule from './Schedule'
 import Login from './Login'
+import TestComp from './TestComp'
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -17,6 +18,7 @@ const Main = () => (
       <Route path='/roster' component={Roster}/>
       <Route path='/schedule' component={Schedule}/>
       <Route path='/login' component={Login}/>
+      <Route path='/testcomp' component={TestComp}/> 
     </Switch>
   </main>
 )
